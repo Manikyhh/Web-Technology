@@ -1,0 +1,91 @@
+.carousel {
+    position: relative;
+}
+.carousel-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    /* background-color: #948e8e; */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.carousel-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.carousel-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.carousel-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* about section */
+
+
+  
+  .about-heading {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about-text {
+    color: #34495e;
+    line-height: 1.8;
+  }
+  
+  .about-image {
+    height: 320px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* contact form */
+  .form-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+}
+.form-container h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+.form-control:focus {
+    border-color: #6a11cb;
+    box-shadow: 0 0 10px rgba(106, 17, 203, 0.3);
+}
+.btn-primary {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(106, 17, 203, 0.4);
+}
+.form-label {
+    color: #333;
+    font-weight: 500;
+}

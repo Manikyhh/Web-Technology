@@ -1,0 +1,12 @@
+
+Technologies
+
+Frontend
+HTML
+CSS
+JAVASCRIPT
+
+
+Using HTML for structure and Bootstrap for styling and responsiveness is an efficient way to design modern websites. 
+Bootstrap allows you to build visually appealing websites with minimal effort, ensuring they are responsive across various devices. 
+By leveraging Bootstrap’s built-in classes and components, you can save time and focus on content and functionality.
