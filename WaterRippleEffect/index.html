@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Ripple Effect</title>
+</head>
+<body>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.water-container {
+    width: 300px;
+    height: 300px;
+    background-color: #00bcd4; /* Water color */
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ripple {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    animation: ripple-animation 2s infinite;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes ripple-animation {
+    0% {
+        width: 100px;
+        height: 100px;
+        opacity: 0.5;
+    }
+    50% {
+        width: 200px;
+        height: 200px;
+        opacity: 0;
+    }
+    100% {
+        width: 100px;
+        height: 100px;
+        opacity: 0.5;
+    }
+}
+
+    </style>
+    <div class="water-container">
+        <div class="ripple"></div>
+    </div>
+</body>
+</html>
