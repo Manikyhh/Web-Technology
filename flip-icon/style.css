@@ -1,0 +1,117 @@
+
+
+.service-sec {
+    position: relative;
+    display: block;
+    clear: both;
+    padding-top: 10px;
+  /*  padding-bottom: 40px;*/
+    /*background: #f8f8f8;*/
+}
+
+
+.heading-inn {
+    padding-left: 58px;
+    margin-top: -18px;
+}
+
+.section-heading p {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    color: #09c567;
+}
+
+.section-heading h2 {
+    color: #002a45;
+    font-weight: 700;
+    font-size: 55px;
+    margin: 0;
+    padding: 2px 0;
+}
+
+.service-sec .single-service {
+    position: relative;
+    margin-bottom: 4em;
+    transition: all 0.3s;
+}
+
+    .service-sec .single-service:before {
+        pointer-events: none;
+        position: absolute;
+        content: '';
+        top: 100%;
+        text-align: center;
+        left: 0%;
+        right: 0;
+        margin: 0 auto;
+        height: 20px;
+        width: 100%;
+        opacity: 0;
+        background: radial-gradient(ellipse at center, rgb(189 187 183) 0%, rgba(0, 0, 0, 0) 40%);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform, opacity;
+        transition-property: transform, opacity;
+    }
+
+    .service-sec .single-service:hover:before,
+    .service-sec .single-service:focus:before,
+    .service-sec .single-service:active:before {
+        opacity: 1;
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+
+
+.single-service:hover .sec-iocn i {
+    transform: rotateY(180deg);
+    transition: all 0.3s;
+}
+
+.service-sec .sec-iocn {
+    position: relative;
+    transition: all 0.3s;
+    background: #F27F1B;
+    z-index: 0;
+    text-align: center;
+    width: 95px;
+    height: 95px;
+    line-height: 95px;
+}
+
+.service-sec .single-service:hover .sec-iocn a:before,
+.service-sec .single-service:focus .sec-iocn a:before,
+.service-sec .single-service:active .sec-iocn a:before {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.service-sec .sec-iocn i {
+    position: relative;
+    font-size: 50px;
+    padding: 20px;
+    color: #fff;
+    z-index: 5;
+    transition: all 0.3s;
+}
+
+
+.service-sec .single-service-bx {
+    position: relative;
+    z-index: 2;
+    transition: all 0.3s;
+}
+
+
+.service-sec .single-service:hover .sec-iocn {
+    background-color: #D9042B;
+}
+
+.service-sec .single-service:hover .service-icon a i {
+    color: #D9042B;
+}
+
+.service-sec .single-service:hover .service-title-box h4 {
+    color: #09c567;
+}
